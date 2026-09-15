@@ -22,3 +22,8 @@ print(list2)
 #7. Add the two numbers in the second list together and print the result.
 list3=list2[0]+list2[1]
 print(list3)
+#8. Add the sum from #7 to the first list.
+list1.append(list3)
+#9. Sort the first list from lowest to highest and print it.
+list1.sort()
+print(list1)
